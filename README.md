@@ -14,9 +14,11 @@ npm install
 npm start
 ```
 The application will start emiting tracks at: 
-/topic/producers/airplanes/
+/topic/producers/flights/
+
 
 The topics can be refined to restrict the airport from departure, airport from arrival, company, or flight id 
+/topic/producers/flights/data/company/from/to/id
 
 ### Start the application for production
 For production we strongly advise using pm2 to supervise and keep the application running in the background
