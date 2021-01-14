@@ -1,0 +1,320 @@
+{
+  "@context":{
+    "eop": "http://www.opengis.net/ont/eo-geojson/1.0/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#",
+		"dct": "http://purl.org/dc/terms/",
+		"atom": "http://www.w3.org/2005/Atom/",
+		"iana": "http://www.iana.org/assignments/relation/",
+		"owc": "http://www.opengis.net/ont/owc/1.0/",
+		"gj": "https://purl.org/geojson/vocab#",
+		"gsp": "http://www.opengis.net/ont/geosparql#",
+		"ical": "http://www.w3.org/2002/12/cal/ical#",
+		"media": "http://search.yahoo.com/mrss/",
+    "gmd": "http://www.isotc211.org/2005/gmd#",
+    "gts": "http://www.isotc211.org/2005/gts#",
+    "gml": "http://www.opengis.net/gml/3.2#",
+    "aixm": "http://www.aixm.aero/schema/5.1#",
+    "gco": "http://www.isotc211.org/2005/gco#",
+    "fnse": "http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE#",
+    "fns": "urn:us.gov.dot.faa.aim.fns#",
+    "event": "http://www.aixm.aero/schema/5.1/event#",
+    "xlink": "http://www.w3.org/1999/xlink#",
+    "aixmsg": "http://www.aixm.aero/schema/5.1/message#",
+    "html": "https://ows15.csiss.gmu.edu/wfs3/aimfns/1588217647593/html#",
+    "xmlns": "https://ows15.csiss.gmu.edu/wfs3/aimfns/1588217647593#"
+  },
+  "@id":"https://ows15.csiss.gmu.edu/wfs3/aimfns/1588217647593",
+  "@type":[
+		"gj:Feature",
+		"gsp:Feature"
+  ],
+  "gsp:hasGeometry": {
+		"gsp:asWKT": "Polygon((32.329432013219,-90.2196486203777,32.3294126500137,-90.2197626481419,32.329397589743,-90.21982181349131,32.329380378005006,-90.2198788273733,32.3293588633325,-90.2199261596528,32.3293427273281,-90.2199616588624,32.3293244398565,-90.2199950066047,32.3292996979832,-90.2200348087488,32.3292760318434,-90.2200681564911,32.329245911302,-90.2201068829016,32.329211487826,-90.2201477607793,32.3291792215835,-90.2201832474059,32.3295700522618,-90.2203623503094,32.329549268184,-90.2203317112291,32.329537435114,-90.2203058936221,32.329532056446,-90.2202768488143,32.3295331321796,-90.2202327437356,32.3295621769875,-90.2196830438536,32.3295587435208,-90.2191027879862,32.3295535711185,-90.2182286519937,32.3293416515945,-90.2182286519937,32.3293405758608,-90.2185481448801,32.3293663934679,-90.2185933256924,32.3293857566732,-90.2186288249019,32.3293997412102,-90.2186675513124,32.3294104985465,-90.2187062777228,32.3294169529482,-90.2187482313342,32.3294223316162,-90.2187880334783,32.3294244830835,-90.2188256841551,32.3294277102844,-90.2188870009717,32.3294293278783,-90.2191027879862,32.3294330889526,-90.21960451529911,32.329432013219,-90.2196486203777))",
+		"@type": "gsp:Geometry"
+	},
+	"gj:geometry": {
+		"@type": "gj:Polygon",
+		"gj:coordinates": [
+			32.329432013219,-90.2196486203777,32.3294126500137,-90.2197626481419,32.329397589743,-90.21982181349131,32.329380378005006,-90.2198788273733,32.3293588633325,-90.2199261596528,32.3293427273281,-90.2199616588624,32.3293244398565,-90.2199950066047,32.3292996979832,-90.2200348087488,32.3292760318434,-90.2200681564911,32.329245911302,-90.2201068829016,32.329211487826,-90.2201477607793,32.3291792215835,-90.2201832474059,32.3295700522618,-90.2203623503094,32.329549268184,-90.2203317112291,32.329537435114,-90.2203058936221,32.329532056446,-90.2202768488143,32.3295331321796,-90.2202327437356,32.3295621769875,-90.2196830438536,32.3295587435208,-90.2191027879862,32.3295535711185,-90.2182286519937,32.3293416515945,-90.2182286519937,32.3293405758608,-90.2185481448801,32.3293663934679,-90.2185933256924,32.3293857566732,-90.2186288249019,32.3293997412102,-90.2186675513124,32.3294104985465,-90.2187062777228,32.3294169529482,-90.2187482313342,32.3294223316162,-90.2187880334783,32.3294244830835,-90.2188256841551,32.3294277102844,-90.2188870009717,32.3294293278783,-90.2191027879862,32.3294330889526,-90.21960451529911,32.329432013219,-90.2196486203777
+		]
+	},
+  "aixmsg:AIXMBasicMessage": {
+    "xmlns:gmd": "http://www.isotc211.org/2005/gmd",
+    "xmlns:gts": "http://www.isotc211.org/2005/gts",
+    "gml:id": "FNS_ID_56834915",
+    "xmlns:aixm": "http://www.aixm.aero/schema/5.1",
+    "xmlns:gco": "http://www.isotc211.org/2005/gco",
+    "xmlns:fnse": "http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE",
+    "xmlns:fns": "urn:us.gov.dot.faa.aim.fns",
+    "xmlns:event": "http://www.aixm.aero/schema/5.1/event",
+    "gml:boundedBy": {
+      "xsi:nil": true,
+      "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+    },
+    "xmlns:gml": "http://www.opengis.net/gml/3.2",
+    "xmlns:xlink": "http://www.w3.org/1999/xlink",
+    "xmlns:aixmsg": "http://www.aixm.aero/schema/5.1/message",
+    "aixmsg:hasMember": [{
+      "aixm:TaxiwayElement": {
+        "gml:boundedBy": {
+          "xsi:nil": true,
+          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "gml:id": "TaxiwayElement_1_56834915",
+        "aixm:timeSlice": [{
+          "aixm:TaxiwayElementTimeSlice": {
+            "aixm:interpretation": "SNAPSHOT",
+            "gml:id": "TaxiwayElement_TS_2_56834915",
+            "aixm:associatedTaxiway": {
+              "xlink:href": "Taxiway_1_56834915"
+            },
+            "gml:validTime": {
+              "gml:TimeInstant": {
+                "gml:id": "TimeInstantType_14_56834915",
+                "gml:timePosition": "2020-04-30T03:34:06.408Z"
+              }
+            }
+          }
+        }, {
+          "aixm:TaxiwayElementTimeSlice": {
+            "aixm:interpretation": "TEMPDELTA",
+            "gml:id": "TaxiwayElement_TS_1_56834915",
+            "aixm:extension": {
+              "event:TaxiwayElementExtension": {
+                "event:theEvent": {
+                  "xlink:href": "#Event_1_56834915"
+                },
+                "gml:id": "TEE_EVENT_01_56834915"
+              }
+            },
+            "aixm:availability": {
+              "aixm:ManoeuvringAreaAvailability": {
+                "aixm:operationalStatus": "CLOSED",
+                "gml:id": "ManoeuvringAreaAvailability_1_56834915"
+              }
+            },
+            "gml:validTime": {
+              "gml:TimePeriod": {
+                "gml:endPosition": "2020-09-30T23:59:00.000Z",
+                "gml:id": "TaxiwayElement_TS_TP_1_56834915",
+                "gml:beginPosition": "2020-04-30T10:00:00.000Z"
+              }
+            }
+          }
+        }]
+      }
+    }, {
+      "aixm:TaxiwayElement": {
+        "gml:boundedBy": {
+          "xsi:nil": true,
+          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "gml:id": "TWYEL1_56834915",
+        "aixm:timeSlice": {
+          "aixm:TaxiwayElementTimeSlice": {
+            "aixm:interpretation": "SNAPSHOT",
+            "gml:id": "TE01_TS1_56834915",
+            "aixm:extension": {
+              "event:TaxiwayElementExtension": {
+                "event:theEvent": {
+                  "xlink:href": "#Event_1_56834915"
+                },
+                "gml:id": "TEE_EVENT_11_56834915"
+              }
+            },
+            "aixm:associatedTaxiway": {
+              "xlink:href": "#Taxiway_1_56834915"
+            },
+            "aixm:extent": {
+              "aixm:ElevatedSurface": {
+                "gml:srsName": "urn:ogc:def:crs:EPSG::4326",
+                "gml:srsDimension": 2,
+                "gml:id": "ES1_56834915",
+                "gml:patches": {
+                  "gml:PolygonPatch": {
+                    "gml:exterior": {
+                      "gml:LinearRing": {
+                        "gml:posList": "32.329432013219 -90.2196486203777 32.3294126500137 -90.2197626481419 32.329397589743 -90.21982181349131 32.329380378005006 -90.2198788273733 32.3293588633325 -90.2199261596528 32.3293427273281 -90.2199616588624 32.3293244398565 -90.2199950066047 32.3292996979832 -90.2200348087488 32.3292760318434 -90.2200681564911 32.329245911302 -90.2201068829016 32.329211487826 -90.2201477607793 32.3291792215835 -90.2201832474059 32.3295700522618 -90.2203623503094 32.329549268184 -90.2203317112291 32.329537435114 -90.2203058936221 32.329532056446 -90.2202768488143 32.3295331321796 -90.2202327437356 32.3295621769875 -90.2196830438536 32.3295587435208 -90.2191027879862 32.3295535711185 -90.2182286519937 32.3293416515945 -90.2182286519937 32.3293405758608 -90.2185481448801 32.3293663934679 -90.2185933256924 32.3293857566732 -90.2186288249019 32.3293997412102 -90.2186675513124 32.3294104985465 -90.2187062777228 32.3294169529482 -90.2187482313342 32.3294223316162 -90.2187880334783 32.3294244830835 -90.2188256841551 32.3294277102844 -90.2188870009717 32.3294293278783 -90.2191027879862 32.3294330889526 -90.21960451529911 32.329432013219 -90.2196486203777"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "gml:validTime": {
+              "gml:TimeInstant": {
+                "gml:id": "TE_TI1_56834915",
+                "gml:timePosition": "2020-04-30T03:34:06.408Z"
+              }
+            }
+          }
+        }
+      }
+    }, {
+      "aixm:Taxiway": {
+        "gml:boundedBy": {
+          "xsi:nil": true,
+          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "gml:id": "Taxiway_1_56834915",
+        "aixm:timeSlice": {
+          "aixm:TaxiwayTimeSlice": {
+            "aixm:interpretation": "SNAPSHOT",
+            "aixm:associatedAirportHeliport": {
+              "xlink:href": "Airport_1_56834915"
+            },
+            "aixm:annotation": {
+              "aixm:Note": {
+                "aixm:translatedNote": {
+                  "aixm:LinguisticNote": {
+                    "aixm:note": "D",
+                    "gml:id": "Taxiway_LN1_56834915"
+                  }
+                },
+                "aixm:purpose": "DESCRIPTION",
+                "gml:id": "Taxiway_note_1_56834915",
+                "aixm:propertyName": "taxiwayDesignator"
+              }
+            },
+            "gml:id": "Taxiway_TS_1_56834915",
+            "aixm:extension": {
+              "event:TaxiwayExtension": {
+                "event:theEvent": {
+                  "xlink:href": "#Event_1_56834915"
+                },
+                "gml:id": "TE_EVENT_01_56834915"
+              }
+            },
+            "gml:validTime": {
+              "gml:TimeInstant": {
+                "gml:id": "Taxiway_TS_I_1_56834915",
+                "gml:timePosition": "2020-04-30T03:34:06.408Z"
+              }
+            }
+          }
+        }
+      }
+    }, {
+      "aixm:AirportHeliport": {
+        "gml:boundedBy": {
+          "xsi:nil": true,
+          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "gml:id": "Airport_1_56834915",
+        "aixm:timeSlice": {
+          "aixm:AirportHeliportTimeSlice": {
+            "aixm:designator": "HKS",
+            "aixm:interpretation": "SNAPSHOT",
+            "aixm:locationIndicatorICAO": "KHKS",
+            "aixm:ARP": {
+              "aixm:ElevatedPoint": {
+                "gml:srsName": "urn:ogc:def:crs:EPSG::4326",
+                "gml:srsDimension": 2,
+                "gml:id": "EP01_56834915",
+                "gml:pos": "32.3347777777778 -90.2225277777778"
+              }
+            },
+            "gml:id": "Airport_TS_1_56834915",
+            "aixm:extension": {
+              "event:AirportHeliportExtension": {
+                "event:theEvent": {
+                  "xlink:href": "#Event_1_56834915"
+                },
+                "gml:id": "AHE_EVENT_1_56834915"
+              }
+            },
+            "gml:validTime": {
+              "gml:TimeInstant": {
+                "gml:id": "Airport_TS_TI_1_56834915",
+                "gml:timePosition": "2020-04-30T03:34:06.408Z"
+              }
+            },
+            "aixm:name": "HAWKINS FIELD"
+          }
+        }
+      }
+    }, {
+      "event:Event": {
+        "gml:boundedBy": {
+          "xsi:nil": true,
+          "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance"
+        },
+        "gml:id": "Event_1_56834915",
+        "event:timeSlice": {
+          "event:EventTimeSlice": {
+            "aixm:interpretation": "BASELINE",
+            "event:textNOTAM": {
+              "event:NOTAM": {
+                "event:number": 26,
+                "event:year": 2020,
+                "event:type": "N",
+                "event:affectedFIR": "ZME",
+                "gml:id": "NOTAM_1_56834915",
+                "event:location": "HKS",
+                "event:effectiveEnd": 202009302359,
+                "event:text": "TWY D CLSD",
+                "event:maximumFL": 999,
+                "event:translation": [{
+                  "event:NOTAMTranslation": {
+                    "event:type": "LOCAL_FORMAT",
+                    "event:simpleText": "!HKS 04/026 HKS TWY D CLSD 2004301000-2009302359",
+                    "gml:id": "NT01_56834915"
+                  }
+                }, {
+                  "event:NOTAMTranslation": {
+                    "event:type": "OTHER:ICAO",
+                    "event:formattedText": {
+                      "html:div": {
+                        "xmlns:aixm": "http://www.aixm.aero/schema/5.1",
+                        "xmlns:fnse": "http://www.aixm.aero/schema/5.1/extensions/FAA/FNSE",
+                        "xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+                        "content": "04/026 NOTAMR \r\nQ) ZME/QMXLC/IV/NBO/A/000/999/3220N09013W005 \r\nA) KHKS \r\nB) 2004301000 \r\nC) 2009302359 \r\n\r\nE) TWY D CLSD",
+                        "xmlns:gco": "http://www.isotc211.org/2005/gco",
+                        "xmlns:xmlns": "http://www.aixm.aero/schema/5.1/message",
+                        "xmlns:gml": "http://www.opengis.net/gml/3.2",
+                        "xmlns:gsr": "http://www.isotc211.org/2005/gsr",
+                        "xmlns:gts": "http://www.isotc211.org/2005/gts",
+                        "xmlns:gss": "http://www.isotc211.org/2005/gss",
+                        "xmlns:html": "http://www.w3.org/1999/xhtml",
+                        "xmlns:fns": "urn:us.gov.dot.faa.aim.fns",
+                        "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                        "xmlns:event": "http://www.aixm.aero/schema/5.1/event",
+                        "xmlns:gmd": "http://www.isotc211.org/2005/gmd"
+                      }
+                    },
+                    "gml:id": "NT02_56834915"
+                  }
+                }],
+                "event:minimumFL": "000",
+                "event:effectiveStart": 202004301000,
+                "event:issued": "2020-04-30T03:15:00.000Z",
+                "event:radius": 5
+              }
+            },
+            "gml:id": "Event_TS_1_56834915",
+            "event:extension": {
+              "fnse:EventExtension": {
+                "fnse:accountId": "HKS",
+                "fnse:xovernotamID": "A0057/20",
+                "fnse:classification": "DOM",
+                "fnse:icaoLocation": "KHKS",
+                "fnse:lastUpdated": "2020-04-30T03:30:00.000Z",
+                "gml:id": "ext_01_56834915",
+                "fnse:airportname": "HAWKINS FIELD",
+                "fnse:xoveraccountID": "KHKS"
+              }
+            },
+            "gml:validTime": {
+              "gml:TimePeriod": {
+                "gml:endPosition": "2020-09-30T23:59:00.000Z",
+                "gml:id": "Event_TS_TP_1_56834915",
+                "gml:beginPosition": "2020-04-30T10:00:00.000Z"
+              }
+            },
+            "event:scenario": 30
+          }
+        }
+      }
+    }]
+  }
+}
