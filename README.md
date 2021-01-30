@@ -31,7 +31,7 @@ pm2 start index.js --name cartracking --exp-backoff-restart-delay=100
 /topic/producers/flights/{from}/{to}/{id}
 
 Example:   
-/topic/producers.flights.data.klm.*
+/topic/producers.flights.data.klm.>   (Only flights from KLM)
 
-/topic/producers.flights.data.*.MAD.>     (Only flighst from Madrid)
-/topic/producers.flights.data.*.*.MAD.>     (Only flighst to Madrid)
+/topic/producers.flights.data.*.MAD.>     (Only flighst from Madrid)   
+/topic/producers.flights.data.*.*.MAD.>     (Only flighst to Madrid)   
