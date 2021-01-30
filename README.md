@@ -25,3 +25,13 @@ For production we strongly advise using pm2 to supervise and keep the applicatio
 ```
 pm2 start index.js --name cartracking --exp-backoff-restart-delay=100
 ```
+
+## Available topics
+
+/topic/producers/flights/{from}/{to}/{id}
+
+Example:   
+/topic/producers.flights.data.klm.*
+
+/topic/producers.flights.data.*.MAD.>     (Only flighst from Madrid)
+/topic/producers.flights.data.*.*.MAD.>     (Only flighst to Madrid)
